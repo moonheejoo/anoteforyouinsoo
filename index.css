@@ -1,0 +1,86 @@
+body {
+  font-family: 'Baloo', cursive;
+  background: #003366;
+  height: 1400px;
+}
+
+
+h1 {
+  color: white;
+  font-size: 105px;
+  line-height: 100px;
+}
+
+h2 {
+  font-size: 30px;
+  text-decoration: underline solid white;
+}
+.section {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 70px;
+}
+
+.section:not(:first-of-type) {
+  border-top: 1px solid rgba(255,255,255,0.25);
+}
+
+.title-area {
+  width: 700px;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.main-text {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#stickyHeader.shadow {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+#stickyHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #003366;
+    height: 93px;
+    box-sizing: border-box;
+    z-index: 10000000;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);å
+}
+
+.transitionSticky {
+    -webkit-transition: top 0.5s ease-in-out;
+    -moz-transition: top 0.5s ease-in-out;
+    -ms-transition: top 0.5s ease-in-out;
+    -o-transition: top 0.5s ease-in-out;
+    transition: top 0.5s ease-in-out;
+}
+
+.main-text-column {
+    margin-top: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+    column-count: 2;
+    column-width: 20px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    transform: scale(1.5)
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
