@@ -4,6 +4,54 @@ body {
   height: 1400px;
 }
 
+#title-logo {
+  /* font-family: 'Concert One', cursive; */
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+  float: left;
+  font-size: 28px;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+circle[Attributes Style] {
+    cx: 22;
+    cy: 22;
+    r: 15;
+    stroke: white;
+    stroke-width: 11;
+    fill: #ef3340;
+}
+user agent stylesheet
+* {
+    transform-origin: 0px 0px 0px;
+}
+
+#lifeSaver {
+    opacity: 1;
+    display: block;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-indeX: 1000000000;
+    background: url(img/lifesaver-big.png) top left no-repeat;
+    background-size: 44px 44px;
+    top: 0;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
 
 h1 {
   color: white;
@@ -28,7 +76,7 @@ h2 {
 }
 
 .title-area {
-  width: 700px;
+  width: 800px;
   margin-top: 15%;
   margin-left: 10%;
 }
